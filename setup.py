@@ -61,6 +61,6 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Topic :: Utilities",
     ],
-    setup_requires=["setuptools_scm", "pytest-runner"],
+    setup_requires=["setuptools_scm>=7.0.0,<8.0.0", "pytest-runner"],
     python_requires=">=3.6",
 )
